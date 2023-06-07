@@ -33,11 +33,3 @@ function onRemoveForm(evt) {
   localStorage.removeItem(STR_KEY);
   evt.currentTarget.reset();
 }
-function returnFeedback() {
-  const preMassage = JSON.parse(localStorage.getItem(STR_KEY));
-
-  if (preMassage) {
-    inputEl.value = preMassage.email;
-    textEl.value = preMassage.message;
-  }
-}
