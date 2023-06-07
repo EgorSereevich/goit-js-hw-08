@@ -1,1 +1,0 @@
-{"mappings":"AAAAA,QAAQC,IAAI,UACZC,aAAaC,QAAQ,SAAU,WAC/BH,QAAQC","sources":["src/js/03-feedback.js"],"sourcesContent":["console.log('zalupa');\nlocalStorage.getItem('zalupa', 'polnaya');\nconsole.log();\n"],"names":["console","log","localStorage","getItem"],"version":3,"file":"03-feedback.8458b5e1.js.map"}
